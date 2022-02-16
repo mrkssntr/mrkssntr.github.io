@@ -1,7 +1,7 @@
 /*******************************/
 /*    DEVICES WITH NOTCH       */
 /*******************************/
-.contentblock {
+.swipe-page {
     padding: 12px;
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);

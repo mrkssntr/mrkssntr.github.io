@@ -590,7 +590,7 @@ header p.language{
   display: inline-block;
   width: 70px;
   height: 70%;
-  background: url("/images/icon.png") no-repeat top center;
+  background: url("https://github.com/mrkssntr/mrkssntr.github.io/blob/main/MyChapp/images/icon.png") no-repeat top center;
   background-size: auto 100%;
 }
 .logo.small {

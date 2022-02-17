@@ -1,3 +1,7 @@
+body {
+    margin-top: 20px;
+}
+
 /*******************************/
 /*    DEVICES WITH NOTCH       */
 /*******************************/
@@ -6,7 +10,6 @@
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
 }
-
 /*******************************/
 /*          FONTS CSS          */
 /*******************************/
@@ -558,6 +561,7 @@ header div{
   margin:0 auto;
   width:100%;
   max-width:1100px;
+  height: 100%;
 }
 
 header p{
@@ -582,12 +586,12 @@ header p.language{
 }
 
 .logo {
-  margin: 5px;
+  margin-top: 5px;
   display: inline-block;
-  width: 340px;
-  height: 80px;
-  background: url("https://raw.githubusercontent.com/mrkssntr/mrkssntr.github.io/main/MyChapp/images/icon.png") no-repeat top center;
-  background-size: auto 75px;
+  width: 70px;
+  height: 70%;
+  background: url("/images/icon.png") no-repeat top center;
+  background-size: auto 100%;
 }
 .logo.small {
   width: 180px;
@@ -3365,7 +3369,7 @@ header p.language{
 
 @media all and (max-width: 500px) and (orientation:portrait){
 .logo {
-  width: 290px;
+  
 }
 
 .rowbuttons p{

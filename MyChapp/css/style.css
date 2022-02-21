@@ -45,6 +45,7 @@ html{
 }
 
 body{
+  min-height: 100%;
   background:#F7F7F7;
   background:linear-gradient(#F7F7F7,#BBBBBB);
   min-height:100%;

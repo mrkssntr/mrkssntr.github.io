@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .intro {
@@ -18,12 +18,20 @@ body {
   object-fit: cover;
 }
 
-.intro h1 {
+.intro h1{
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
+  color: white;
+}
+.intro h2 {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
   color: white;
 }
 

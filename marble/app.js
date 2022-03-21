@@ -10,7 +10,7 @@ const controller = new ScrollMagic.Controller();
 
 //Scenes
 let scene = new ScrollMagic.Scene({
-  duration: 6000,
+  duration: 4000,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -22,7 +22,7 @@ let scene = new ScrollMagic.Scene({
 const textAnim = TweenMax.fromTo(text, 3, { opacity: 1 }, { opacity: 0 });
 
 let scene2 = new ScrollMagic.Scene({
-  duration: 7000,
+  duration: 4000,
   triggerElement: intro,
   triggerHook: 0
 })
@@ -43,4 +43,4 @@ setInterval(() => {
   console.log(scrollpos, delay);
 
   video.currentTime = delay;
-}, 33.3);
+}, 41,6);

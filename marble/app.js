@@ -42,5 +42,5 @@ setInterval(() => {
   delay += (scrollpos - delay) * accelamount;
   console.log(scrollpos, delay);
 
-  video.currentTime = delay;
+  video.currentTime = scrollpos;
 }, 41,6);
